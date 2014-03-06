@@ -1,0 +1,55 @@
+
+$columns: 12;
+
+* { box-sizing: border-box; }
+body { padding: 0; margin: 0; }
+
+.group {
+	margin: 0 auto; max-width: 1000px;
+	display: flex;
+	flex-flow: row wrap;
+	align-content: flex-start;
+
+	@for $i from 1 through $columns {
+	  &.vheight-#{$i} {
+	    height: (($i / $columns) * 100) + vh;
+	  }
+	}
+
+	&.axis-y { flex-direction: column;
+
+		@for $i from 1 through $columns {
+		  .cross-#{$i} {
+		    min-width: percentage($i / $columns);
+		  }
+		}
+	}
+
+	&.axis-x {
+		
+		@for $i from 1 through $columns {
+		  .cross-#{$i} {
+		    min-height: (($i / $columns) * 100) + vh;
+		  }
+		}
+	}
+}
+
+
+.block {
+	flex: 1 auto;
+	padding: 20px;
+	background: rgba(0,0,0,0.05);
+	border: 1px solid #ccc;
+
+	@for $i from 1 through $columns {
+	  &.main-#{$i} {
+	    flex-basis: percentage($i / $columns);
+	  }
+	}
+}
+
+[class*="main-"] { flex: 0 0 auto; }
+
+
+

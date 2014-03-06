@@ -1,0 +1,228 @@
+/* line 4, ../sass/grid.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, ../sass/grid.scss */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 7, ../sass/grid.scss */
+.group {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+/* line 14, ../sass/grid.scss */
+.group.vheight-1 {
+  height: 8.33333vh;
+}
+/* line 14, ../sass/grid.scss */
+.group.vheight-2 {
+  height: 16.66667vh;
+}
+/* line 14, ../sass/grid.scss */
+.group.vheight-3 {
+  height: 25vh;
+}
+/* line 14, ../sass/grid.scss */
+.group.vheight-4 {
+  height: 33.33333vh;
+}
+/* line 14, ../sass/grid.scss */
+.group.vheight-5 {
+  height: 41.66667vh;
+}
+/* line 14, ../sass/grid.scss */
+.group.vheight-6 {
+  height: 50vh;
+}
+/* line 14, ../sass/grid.scss */
+.group.vheight-7 {
+  height: 58.33333vh;
+}
+/* line 14, ../sass/grid.scss */
+.group.vheight-8 {
+  height: 66.66667vh;
+}
+/* line 14, ../sass/grid.scss */
+.group.vheight-9 {
+  height: 75vh;
+}
+/* line 14, ../sass/grid.scss */
+.group.vheight-10 {
+  height: 83.33333vh;
+}
+/* line 14, ../sass/grid.scss */
+.group.vheight-11 {
+  height: 91.66667vh;
+}
+/* line 14, ../sass/grid.scss */
+.group.vheight-12 {
+  height: 100vh;
+}
+/* line 19, ../sass/grid.scss */
+.group.axis-y {
+  flex-direction: column;
+}
+/* line 22, ../sass/grid.scss */
+.group.axis-y .cross-1 {
+  min-width: 8.33333%;
+}
+/* line 22, ../sass/grid.scss */
+.group.axis-y .cross-2 {
+  min-width: 16.66667%;
+}
+/* line 22, ../sass/grid.scss */
+.group.axis-y .cross-3 {
+  min-width: 25%;
+}
+/* line 22, ../sass/grid.scss */
+.group.axis-y .cross-4 {
+  min-width: 33.33333%;
+}
+/* line 22, ../sass/grid.scss */
+.group.axis-y .cross-5 {
+  min-width: 41.66667%;
+}
+/* line 22, ../sass/grid.scss */
+.group.axis-y .cross-6 {
+  min-width: 50%;
+}
+/* line 22, ../sass/grid.scss */
+.group.axis-y .cross-7 {
+  min-width: 58.33333%;
+}
+/* line 22, ../sass/grid.scss */
+.group.axis-y .cross-8 {
+  min-width: 66.66667%;
+}
+/* line 22, ../sass/grid.scss */
+.group.axis-y .cross-9 {
+  min-width: 75%;
+}
+/* line 22, ../sass/grid.scss */
+.group.axis-y .cross-10 {
+  min-width: 83.33333%;
+}
+/* line 22, ../sass/grid.scss */
+.group.axis-y .cross-11 {
+  min-width: 91.66667%;
+}
+/* line 22, ../sass/grid.scss */
+.group.axis-y .cross-12 {
+  min-width: 100%;
+}
+/* line 31, ../sass/grid.scss */
+.group.axis-x .cross-1 {
+  min-height: 8.33333vh;
+}
+/* line 31, ../sass/grid.scss */
+.group.axis-x .cross-2 {
+  min-height: 16.66667vh;
+}
+/* line 31, ../sass/grid.scss */
+.group.axis-x .cross-3 {
+  min-height: 25vh;
+}
+/* line 31, ../sass/grid.scss */
+.group.axis-x .cross-4 {
+  min-height: 33.33333vh;
+}
+/* line 31, ../sass/grid.scss */
+.group.axis-x .cross-5 {
+  min-height: 41.66667vh;
+}
+/* line 31, ../sass/grid.scss */
+.group.axis-x .cross-6 {
+  min-height: 50vh;
+}
+/* line 31, ../sass/grid.scss */
+.group.axis-x .cross-7 {
+  min-height: 58.33333vh;
+}
+/* line 31, ../sass/grid.scss */
+.group.axis-x .cross-8 {
+  min-height: 66.66667vh;
+}
+/* line 31, ../sass/grid.scss */
+.group.axis-x .cross-9 {
+  min-height: 75vh;
+}
+/* line 31, ../sass/grid.scss */
+.group.axis-x .cross-10 {
+  min-height: 83.33333vh;
+}
+/* line 31, ../sass/grid.scss */
+.group.axis-x .cross-11 {
+  min-height: 91.66667vh;
+}
+/* line 31, ../sass/grid.scss */
+.group.axis-x .cross-12 {
+  min-height: 100vh;
+}
+
+/* line 39, ../sass/grid.scss */
+.block {
+  flex: 1 auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid #ccc;
+}
+/* line 46, ../sass/grid.scss */
+.block.main-1 {
+  flex-basis: 8.33333%;
+}
+/* line 46, ../sass/grid.scss */
+.block.main-2 {
+  flex-basis: 16.66667%;
+}
+/* line 46, ../sass/grid.scss */
+.block.main-3 {
+  flex-basis: 25%;
+}
+/* line 46, ../sass/grid.scss */
+.block.main-4 {
+  flex-basis: 33.33333%;
+}
+/* line 46, ../sass/grid.scss */
+.block.main-5 {
+  flex-basis: 41.66667%;
+}
+/* line 46, ../sass/grid.scss */
+.block.main-6 {
+  flex-basis: 50%;
+}
+/* line 46, ../sass/grid.scss */
+.block.main-7 {
+  flex-basis: 58.33333%;
+}
+/* line 46, ../sass/grid.scss */
+.block.main-8 {
+  flex-basis: 66.66667%;
+}
+/* line 46, ../sass/grid.scss */
+.block.main-9 {
+  flex-basis: 75%;
+}
+/* line 46, ../sass/grid.scss */
+.block.main-10 {
+  flex-basis: 83.33333%;
+}
+/* line 46, ../sass/grid.scss */
+.block.main-11 {
+  flex-basis: 91.66667%;
+}
+/* line 46, ../sass/grid.scss */
+.block.main-12 {
+  flex-basis: 100%;
+}
+
+/* line 52, ../sass/grid.scss */
+[class*="main-"] {
+  flex: 0 0 auto;
+}

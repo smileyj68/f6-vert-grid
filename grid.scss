@@ -1,0 +1,81 @@
+* { box-sizing: border-box; }
+body { padding: 0; margin: 0; }
+
+.group {
+	margin: 0 auto; max-width: 1000px;
+	display: flex;
+	flex-flow: row wrap;
+	align-content: flex-start;
+
+	.axis-y { flex-direction: column; 
+
+		.cross-1 { min-width: 8.33333%; }
+		.cross-2 { min-width: 16.66666%; }
+		.cross-3 { min-width: 25%; }
+		.cross-4 { min-width: 33.33333%; }
+		.cross-5 { min-width: 41.66666%; }
+		.cross-6 { min-width: 50%; }
+		.cross-7 { min-width: 58.33333%; }
+		.cross-8 { min-width: 66.66666%; }
+		.cross-9 { min-width: 75%; }
+		.cross-10 { min-width: 83.33333%; }
+		.cross-11 { min-width: 91.66666%; }
+		.cross-12 { min-width: 100%; }
+	}
+
+	.axis-x { 
+
+		.cross-1 { min-height: 8.33333vh; }
+		.cross-2 { min-height: 16.66666vh; }
+		.cross-3 { min-height: 25vh; }
+		.cross-4 { min-height: 33.33333vh; }
+		.cross-5 { min-height: 41.66666vh; }
+		.cross-6 { min-height: 50vh; }
+		.cross-7 { min-height: 58.33333vh; }
+		.cross-8 { min-height: 66.66666vh; }
+		.cross-9 { min-height: 75vh; }
+		.cross-10 { min-height: 83.33333vh; }
+		.cross-11 { min-height: 91.66666vh; }
+		.cross-12 { min-height: 100vh; }
+	}
+
+	.vheight-1 { height: 8.33333vh; }
+	.vheight-2 { height: 16.66666vh; }
+	.vheight-3 { height: 25vh; }
+	.vheight-4 { height: 33.33333vh; }
+	.vheight-5 { height: 41.66666vh; }
+	.vheight-6 { height: 50vh; }
+	.vheight-7 { height: 58.33333vh; }
+	.vheight-8 { height: 66.66666vh; }
+	.vheight-9 { height: 75vh; }
+	.vheight-10 { height: 83.33333vh; }
+	.vheight-11 { height: 91.66666vh; }
+	.vheight-12 { height: 100vh; }
+
+}
+
+
+
+.block {
+	flex: 1 auto;
+	padding: 20px;
+	background: rgba(0,0,0,0.05);
+	border: 1px solid #ccc;
+
+	.main-1 { flex-basis: 8.33333%; }
+	.main-2 { flex-basis: 16.66666%; }
+	.main-3 { flex-basis: 25%; }
+	.main-4 { flex-basis: 33.33333%; }
+	.main-5 { flex-basis: 41.66666%; }
+	.main-6 { flex-basis: 50%; }
+	.main-7 { flex-basis: 58.33333%; }
+	.main-8 { flex-basis: 66.66666%; }
+	.main-9 { flex-basis: 75%; }
+	.main-10 { flex-basis: 83.33333%; }
+	.main-11 { flex-basis: 91.66666%; }
+	.main-12 { flex-basis: 100%; }
+}
+
+[class*="main-"] { flex: 0 0 auto; }
+
+
